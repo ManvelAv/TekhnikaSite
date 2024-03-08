@@ -1,6 +1,6 @@
 ﻿namespace TekhnikaSite.Models
 {
-    public class Materials
+    public class Sand
     {
         public int Id { get; set; } // Уникальный идентификатор материала
         public string Name { get; set; } // Название материала

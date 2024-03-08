@@ -8,6 +8,6 @@ namespace TekhnikaSite.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options):base(options) { }
 
         DbSet<Truck> Trucks { get; set; }
-        DbSet<Materials> Materials { get; set; }
+        DbSet<Sand> Materials { get; set; }
     }
 }
